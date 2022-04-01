@@ -10,7 +10,8 @@ import java.io.File;
 
 public class Sample1 {
     static String libWithDriversLocation = System.getProperty("user.dir") + File.separator + "lib" + File.separator;
-
+//the following line is just path where driver is System.getProperty("user.dir") + File.separator + "lib" + File.separator
+    //C:\Users\Master\Documents\Bootcamp Day 5\TABootcampJava2022\selenium_java_basic\lib
     @Test
     public void goToHomepage() throws Exception {
         //define driver
